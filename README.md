@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas - SENAI
 
-![Senai](https://www.senai.br/logo.png)
+![Senai](https://www.senaibahia.com.br/wp-content/themes/senai/assets/images/senailogo_nova.png)
 
 ## Descrição
 
