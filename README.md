@@ -1,3 +1,5 @@
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 # Curso de Desenvolvimento de Sistemas - SENAI
 
 ![Senai](https://www.senaibahia.com.br/wp-content/themes/senai/assets/images/senailogo_nova.png)
@@ -14,5 +16,5 @@ Siga as instruções abaixo para configurar e usar o repositório durante as aul
 
 Antes de começar, você precisará fazer o download do repositório para sua máquina local. Para isso, execute o comando abaixo no terminal Bash:
 
-git clone <link do repositório>
+git clone [<link do repositório>](https://github.com/matheusg33/senai.git)
 
