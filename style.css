@@ -4,6 +4,7 @@
 }
 body{
     background-color: #005EA9;
+    font-family: Arial, sans-serif;
 }
 
 .header{
@@ -22,4 +23,35 @@ body{
 .logo img{
     width: 574px;
     height: 115px;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    width: 900px;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    background-color: #555;
+    border-radius: 5px;
 }
