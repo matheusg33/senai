@@ -16,5 +16,5 @@ Siga as instruções abaixo para configurar e usar o repositório durante as aul
 
 Antes de começar, você precisará fazer o download do repositório para sua máquina local. Para isso, execute o comando abaixo no terminal Bash:
 
-git clone [<link do repositório>](https://github.com/matheusg33/senai.git)
+git clone https://github.com/matheusg33/senai.git
 
