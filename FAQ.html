@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .faq-container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .faq-item {
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .faq-answer {
+            display: none;
+            margin-top: 5px;
+        }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById(id);
+            answer.style.display = (answer.style.display === "none" || answer.style.display === "") ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer('answer1')">O que é HTML?</div>
+            <div class="faq-answer" id="answer1">HTML é a linguagem de marcação usada para estruturar conteúdo na web.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer('answer2')">O que é CSS?</div>
+            <div class="faq-answer" id="answer2">CSS é a linguagem usada para estilizar elementos HTML e melhorar o design.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer('answer3')">Como posso aprender mais?</div>
+            <div class="faq-answer" id="answer3">Existem muitos cursos online gratuitos, como aqueles oferecidos pelo MDN Web Docs e W3Schools.</div>
+        </div>
+    </div>
+
+</body>
+</html>
